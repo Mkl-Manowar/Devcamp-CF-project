@@ -1,0 +1,100 @@
+.mid-section {
+    font-family:'Lato','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background: radial-gradient(circle farthest-corner at 200px 0, #434752, #000);
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left side styles */
+.mid-section > .left-side {
+    min-width: 775px;
+    max-width: 775px;
+    padding: 45px;
+}
+
+.mid-section > .left-side > .first-p {
+    color: #f2f2f2;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.mid-section > .left-side > .second-p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #b3b3b3;
+    padding: 7.5px;
+    margin-bottom: 15px;
+}
+
+.mid-section > .left-side > .btn-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.mid-section > .left-side > .btn-wrapper > .sign-btn {
+    font-size: 1.75rem;
+    background-color: #4BCE79;
+    padding: 14px 18px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.mid-section > .left-side > .btn-wrapper > .sign-btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.mid-section > .left-side > .btn-wrapper > .sign-btn:hover{
+    background-color: #20BB4C;
+}
+
+.mid-section > .left-side > .btn-wrapper > .learn-btn {
+    font-size: 1.75rem;
+    background-color: black;
+    padding: 14px 18px;
+    border-radius: 3px;
+}
+
+.mid-section > .left-side > .btn-wrapper > .learn-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.mid-section > .left-side > .btn-wrapper > .learn-btn:hover{
+    background-color: #1D1D1D;
+}
+
+
+/* Right side styles */
+.mid-section > .right-side {
+    width: 650px;
+    min-width: 500px;
+}
+
+.mid-section > .right-side > .image-text {
+color: white;
+font-size: 1.3rem;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.mid-section > .right-side > .image-text a {
+color: aqua;
+text-decoration: none;
+}
+
+.mid-section > .right-side > .image-text a:hover {
+    color: white;
+}
+
+.mid-section > .right-side > .screenshot {
+    max-width: 100%;
+    height: auto;
+    
+}
